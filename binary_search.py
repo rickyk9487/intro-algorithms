@@ -1,6 +1,9 @@
 def binarySearch(alist, item):
+    """ INPUT: List and value
+        OUTPUT: Boolean. True if value is in list.
+    """
     first = 0
-    last = len(alist)-1
+    last = len(alist) - 1
     found = False
 
     while first <= last and not found:
