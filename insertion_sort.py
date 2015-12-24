@@ -20,4 +20,4 @@ def insertion_sort(x):
                 pass
     return x
 
-print insertion_sort([15, 14, 13, 12, 11, 10])
+print insertion_sort([5, 4, 3, 2, 1, 0])
